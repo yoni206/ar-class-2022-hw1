@@ -5,8 +5,8 @@ The tasks for this HW are found in hw1.pdf.
 ### How to implement?
 The SAT-solvers should be implemented in sat_solver.py.
 In particular, the naive solver should be implemented in the function
-``naive_solve" and the dpll solver should be implemented in the function
-``dpll_solve".
+`naive_solve` and the dpll solver should be implemented in the function
+`dpll_solve`.
 
 ### How to run?
 This is how your implementation should be called:
