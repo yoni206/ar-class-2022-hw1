@@ -31,4 +31,5 @@ Your implementation will be tested on a super-set of these benchmarks.
 It is highly recommended to compare your results to an off-the-shelf SAT solver,
 such as `z3` in order to check that your results are correct.
 When testing your implementation, I plan to compare your results to z3's results.
-
+`z3` can be found here:
+https://github.com/Z3Prover/z3
