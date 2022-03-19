@@ -25,10 +25,12 @@ python3 sat_solver.py benchmarks/example1.cnf dpll
 In both cases, the result should be `sat`. 
 No other output is allowed, as the implementation will be tested using scripts.
 
-The directory `benchmarks` includes several cnf files as examples.
-Your implementation will be tested on a super-set of these benchmarks.
+Remarks:
 
-It is highly recommended to compare your results to an off-the-shelf SAT solver,
+- The directory `benchmarks` includes several cnf files as examples.
+- Your implementation will be tested on a super-set of these benchmarks.
+- You are free to implement everything within sat_solver.py or use other files and import them. In the latter case, make sure to include them in your submission. The test script will always call `sat_solver.py`.
+- It is highly recommended to compare your results to an off-the-shelf SAT solver,
 such as `z3` in order to check that your results are correct.
 When testing your implementation, I plan to compare your results to z3's results.
 `z3` can be found here:
