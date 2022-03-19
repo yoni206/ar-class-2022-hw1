@@ -23,7 +23,7 @@ python3 sat_solver.py benchmarks/example1.cnf naive
 python3 sat_solver.py benchmarks/example1.cnf dpll
 ```
 In both cases, the result should be `sat`. 
-No other output is allwoed, as the implementation will be tested using scripts.
+No other output is allowed, as the implementation will be tested using scripts.
 
 The directory `benchmarks` includes several cnf files as examples.
 Your implementation will be tested on a super-set of these benchmarks.
